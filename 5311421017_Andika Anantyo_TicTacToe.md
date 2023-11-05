@@ -29,23 +29,23 @@ Enumeration digunakan untuk menyimpan semua variabel secara berurutan. Pada prog
 
     Enumeration ini digunakan untuk mengidentifikasi berbagai status permainan dalam permainan Tic Tac Toe. Terdapat empat konstanta yang didefinisikan di dalam enumerasi ini yaitu:
 
-  a.  **PLAYING**, menunjukkan permainan sedang berlangsung
+    **PLAYING**, menunjukkan permainan sedang berlangsung
+
+    **DRAW**, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
+
+    **CROSS_WON**, menunjukkan pemain dengan tanda “X” menang dalam permainan
+
+    **NOUGHT_WON**, menunjukkan pemain dengan tanda “O” menang dalam permainan
   
-  b.  **DRAW**, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
-  
-  c.  **CROSS_WON**, menunjukkan pemain dengan tanda “X” menang dalam permainan
-  
-  d.  **NOUGHT_WON**, menunjukkan pemain dengan tanda “O” menang dalam permainan
-  
-2.  Seed.Java
+3.  Seed.Java
 
     Enumeration ini digunakan untuk mengidentifikasi isi sel pada permainan. Terdapat tiga variabel yaitu:
 
-  a.  **EMPTY**, menunjukkan sel kosong
-  
-  b.  **CROSS**, menunjukkan sel berisi tanda ”X”
-  
-  c.  **NOUGHT**, menunjukkan sel berisi tanda ”O”
+    **EMPTY**, menunjukkan sel kosong
+
+    **CROSS**, menunjukkan sel berisi tanda ”X”
+
+    **NOUGHT**, menunjukkan sel berisi tanda ”O”
   
 3. State.Java
 
