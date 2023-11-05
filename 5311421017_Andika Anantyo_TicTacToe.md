@@ -8,7 +8,7 @@ NIM : 5311421017
 
 Permainan tic tac toe dapat menggunakan algoritma heuristic untuk mencapai solusi optimal. Initial state permainan ini adalah puzzle kosong ukuran 8. Ketika pemain pertama menekan ubin, maka akan membuat tanda silang. Pemain kedua harus menghalangi pemain pertama untuk membuat tanda silang berjajar secara vertikal, horizontal, maupun diagonal. Goal state atau akhir dari permainan ini adalah ketika salah satu pemain berhasilkan menderetkan tanda mereka baik secara vertikal, horizontal, maupun diagonal. Solusi permasalahan pada game ini dapat dilakukan dengan membuat topologi Tree, kemudian setiap langkah pemain akan dijadikan initial state selanjutnya, dan akan dijadikan sebagai initial state yang baru hingga menentukan goal statenya.
 
-![](media/bfb64178f10477bb6b58efb59b7a854f.png)
+![tp_tree](https://github.com/akvrba/praktek_bfs_tictactoe/assets/147400178/63d2004a-6b25-4534-976b-eee38eefae1a)
 
 **Gambar 1.** Topologi Tree pada tic tac toe
 
@@ -29,18 +29,18 @@ Enumeration digunakan untuk menyimpan semua variabel secara berurutan. Pada prog
 
     Enumeration ini digunakan untuk mengidentifikasi berbagai status permainan dalam permainan Tic Tac Toe. Terdapat empat konstanta yang didefinisikan di dalam enumerasi ini yaitu:
 
-2.  PLAYING, menunjukkan permainan sedang berlangsung
-3.  DRAW, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
-4.  CROSS_WON, menunjukkan pemain dengan tanda “X” menang dalam permainan
-5.  NOUGHT_WON, menunjukkan pemain dengan tanda “O” menang dalam permainan
-6.  Seed
+  PLAYING, menunjukkan permainan sedang berlangsung
+  DRAW, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
+  CROSS_WON, menunjukkan pemain dengan tanda “X” menang dalam permainan
+  NOUGHT_WON, menunjukkan pemain dengan tanda “O” menang dalam permainan
+2.  Seed
 
     Enumeration ini digunakan untuk mengidentifikasi isi sel pada permainan. Terdapat tiga variabel yaitu:
 
-7.  EMPTY, menunjukkan sel kosong
-8.  CROSS, menunjukkan sel berisi tanda ”X”
-9.  NOUGHT, menunjukkan sel berisi tanda ”O”
-10. State
+  EMPTY, menunjukkan sel kosong
+  CROSS, menunjukkan sel berisi tanda ”X”
+  NOUGHT, menunjukkan sel berisi tanda ”O”
+3. State
 
     Enumeration ini memiliki isi yang sama dengan GameState yaitu PLAYING, DRAW, CROSS_WON, NOUGHT_WON
 
@@ -62,7 +62,7 @@ Ketiga kelas yang dibuat yaitu:
 
 Hasil program adalah tampilan papan tic tac toe. Pemain dapat mengisi dengan klik sel yang ada yang akan terisi dengan simbol X dan O. Ketika berhasil menghasilkan deret vertikal, horizontal, maupun diagonal, pemain yang berhasil dinyatakan menang yang ditunjukkan pada bar status bagian bawah board.
 
-![](media/1bcaa4e4b90fe27d4123d175bb62e108.png)
+![hasil_program_tictac](https://github.com/akvrba/praktek_bfs_tictactoe/assets/147400178/f6c39098-9b21-4b4f-b55e-73e93c900bea)
 
 **Gambar 2.** Hasil program**  
 **
@@ -71,7 +71,7 @@ Hasil program adalah tampilan papan tic tac toe. Pemain dapat mengisi dengan kli
 
 Penggunaan Java Applet dan HTML pada jobsheet ketika dijalankan pada browser hanya menampilkan judul dan keterangan ” Your browser does not seem to support \<APPLET\> tag!”.
 
-![](media/a20b496232bb4e43bd0b6a5f2fdd4675.png)
+![hasil_program_website](https://github.com/akvrba/praktek_bfs_tictactoe/assets/147400178/2a065cb4-4335-4a90-88ef-e4ab36eb4671)
 
 **Gambar 3.** Hasil program pada website
 
@@ -79,6 +79,6 @@ Penggunaan Java Applet dan HTML pada jobsheet ketika dijalankan pada browser han
 
 Perubahan kode yang saya lakukan yaitu pada bagian GameMain.Java. Pada class tersebut terdapat fungsi yang dapat mengatur jumlah kolom dan baris board permainan yang diinginkan, judul permainan, ukuran dan padding cell, ukuran simbol, warna board, dan fungsi lainnya. Perubahan yang saya lakukan adalah penambahan baris dan kolom menjadi 4x4, penggantian keterangan judul dan status bar, dan ukuran cell. Hasil yang didapatkan sebagai berikut.
 
-![](media/669b8bd6da5c2c75818d37aac3793797.png)
+![hasil_perubahan_program](https://github.com/akvrba/praktek_bfs_tictactoe/assets/147400178/8155865d-b83d-4ea5-815e-bb9074c2774b)
 
 **Gambar 4.** Perubahan program
