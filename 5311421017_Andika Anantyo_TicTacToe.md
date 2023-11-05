@@ -2,7 +2,7 @@ Nama : Andika Anantyo
 
 NIM : 5311421017
 
-**Permainan Tic Tac Toe**
+**PERMAINAN TIC TAC TOE**
 
 **Ringkasan**
 
@@ -29,17 +29,24 @@ Enumeration digunakan untuk menyimpan semua variabel secara berurutan. Pada prog
 
     Enumeration ini digunakan untuk mengidentifikasi berbagai status permainan dalam permainan Tic Tac Toe. Terdapat empat konstanta yang didefinisikan di dalam enumerasi ini yaitu:
 
-  PLAYING, menunjukkan permainan sedang berlangsung
-  DRAW, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
-  CROSS_WON, menunjukkan pemain dengan tanda “X” menang dalam permainan
-  NOUGHT_WON, menunjukkan pemain dengan tanda “O” menang dalam permainan
+  **PLAYING**, menunjukkan permainan sedang berlangsung
+  
+  **DRAW**, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
+  
+  **CROSS_WON**, menunjukkan pemain dengan tanda “X” menang dalam permainan
+  
+  **NOUGHT_WON**, menunjukkan pemain dengan tanda “O” menang dalam permainan
+  
 2.  Seed
 
     Enumeration ini digunakan untuk mengidentifikasi isi sel pada permainan. Terdapat tiga variabel yaitu:
 
-  EMPTY, menunjukkan sel kosong
-  CROSS, menunjukkan sel berisi tanda ”X”
-  NOUGHT, menunjukkan sel berisi tanda ”O”
+  **EMPTY**, menunjukkan sel kosong
+  
+  **CROSS**, menunjukkan sel berisi tanda ”X”
+  
+  **NOUGHT**, menunjukkan sel berisi tanda ”O”
+  
 3. State
 
     Enumeration ini memiliki isi yang sama dengan GameState yaitu PLAYING, DRAW, CROSS_WON, NOUGHT_WON
@@ -64,8 +71,7 @@ Hasil program adalah tampilan papan tic tac toe. Pemain dapat mengisi dengan kli
 
 ![hasil_program_tictac](https://github.com/akvrba/praktek_bfs_tictactoe/assets/147400178/f6c39098-9b21-4b4f-b55e-73e93c900bea)
 
-**Gambar 2.** Hasil program**  
-**
+**Gambar 2.** Hasil program
 
 **Penggunaan Java Applet (JApplet)**
 
