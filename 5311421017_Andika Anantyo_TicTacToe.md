@@ -25,43 +25,43 @@ Permainan dibuat menggunakan Java Swing yang terdiri dari 3 buah Java Class dan 
 
 Enumeration digunakan untuk menyimpan semua variabel secara berurutan. Pada program ini terdapat tiga enumerasi yang didefinisikan yaitu GameState, Seed, dan State.
 
-1.  GameState
+1.  GameState.Java
 
     Enumeration ini digunakan untuk mengidentifikasi berbagai status permainan dalam permainan Tic Tac Toe. Terdapat empat konstanta yang didefinisikan di dalam enumerasi ini yaitu:
 
-  **PLAYING**, menunjukkan permainan sedang berlangsung
+  a.  **PLAYING**, menunjukkan permainan sedang berlangsung
   
-  **DRAW**, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
+  b.  **DRAW**, menunjukkan permainan selesai/berakhir dalam kondisi seri/draw
   
-  **CROSS_WON**, menunjukkan pemain dengan tanda “X” menang dalam permainan
+  c.  **CROSS_WON**, menunjukkan pemain dengan tanda “X” menang dalam permainan
   
-  **NOUGHT_WON**, menunjukkan pemain dengan tanda “O” menang dalam permainan
+  d.  **NOUGHT_WON**, menunjukkan pemain dengan tanda “O” menang dalam permainan
   
-2.  Seed
+2.  Seed.Java
 
     Enumeration ini digunakan untuk mengidentifikasi isi sel pada permainan. Terdapat tiga variabel yaitu:
 
-  **EMPTY**, menunjukkan sel kosong
+  a.  **EMPTY**, menunjukkan sel kosong
   
-  **CROSS**, menunjukkan sel berisi tanda ”X”
+  b.  **CROSS**, menunjukkan sel berisi tanda ”X”
   
-  **NOUGHT**, menunjukkan sel berisi tanda ”O”
+  c.  **NOUGHT**, menunjukkan sel berisi tanda ”O”
   
-3. State
+3. State.Java
 
     Enumeration ini memiliki isi yang sama dengan GameState yaitu PLAYING, DRAW, CROSS_WON, NOUGHT_WON
 
 Ketiga kelas yang dibuat yaitu:
 
-1.  Cell
+1.  Cell.Java
 
     Kelas ini digunakan untuk merepresentasikan setiap sel pada papan permainan tic tac toe yang terdiri dari baris dan kolom. Pada kelas ini, terdapat beberapa fungsi yaitu menyimpan isi dari setiap sel (kosong/X/O) dan menggambarkan simbol X dan O pada sel.
 
-2.  Board
+2.  Board.Java
 
     Kelas ini digunakan untuk memodelkan board/papan permainan tic tac toe dengan tiap selnya dan beberapa fungsi pengelolaan seperti pemantauan dan pemeriksaan status permainan pada board (seri/menang).
 
-3.  GameMain
+3.  GameMain.Java
 
     Kelas ini mengimplementasikan logika permainan tic tac toe, mengatur tampilan board, dan memberikan interaksi dengan pemain melalui klik dengan mouse dengan Mouse Click Handler. Metode main pada kelas ini digunakan untuk memulai aplikasi permainan, mengatur jendela aplikasi, dan memulai permainan dalam lingkungan GUI.
 
